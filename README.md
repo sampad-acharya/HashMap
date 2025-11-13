@@ -1,8 +1,8 @@
-This is a basic implementation of hashmap/ unordered_map in C++ using vector and dynamic memory allocation. 
+This is a basic implementation of HashMap/ unordered_map in C++ using vector and dynamic memory allocation. 
 
-Benchmark folder contains the benchmark info for insert option. I will add more benchmark tests soon. 
+The benchmark folder contains the benchmark info for the insert option. I will add more benchmark tests soon. 
 
-Results of insert benchmark operation with 5 trials:
+Results of the insert benchmark operation with 5 trials:
 
 HashMapContainer insert time: 14.1539s
 HashMapDynamicMemory insert time: 12.6059s
