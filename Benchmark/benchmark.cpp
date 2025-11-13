@@ -32,8 +32,12 @@ void benchmark_insert(size_t N) {
 
 
 int main(){
-    for (int trial = 0; trial < 5; ++trial)
-    benchmark_insert(100000);
+    std::vector<int> ops_number{100, 1000, 10000, 100000, 1000000, 10000000};
+    for (auto &ops: ops_number){
+        std::cout<<"Number of operations: "<< ops << std::endl;
+        for (int trial = 0; trial < 5; ++trial)
+        benchmark_insert(ops);
+    }
     return 0;
 
 }
