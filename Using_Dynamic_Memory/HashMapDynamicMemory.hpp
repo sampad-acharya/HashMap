@@ -29,7 +29,7 @@ private:
             size_t new_capacity = capacity == 0? 1 : 2 * capacity;
             std::pair<Key, Value> *new_entries = new std::pair<Key, Value>[new_capacity];
             for (int i = 0; i < count; ++i){
-                new_entries[i] = entries[i];
+                new_entries[i] = std::move(entries[i]);
             }
             delete []entries;
 

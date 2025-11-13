@@ -2,7 +2,7 @@
 #include <vector>
 #include <utility>
 #include <functional>
-#include "HashMap.hpp"
+#include "HashMapDynamicMemory.hpp"
 
 
 int main() {
