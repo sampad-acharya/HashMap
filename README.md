@@ -29,8 +29,11 @@ HashMap Dynamic Memory insert time: 0.130418s
 unordered_map insert time: 0.00363404s
 
 Number of operations: 100000
+
 HashMap Container insert time: 14.2089s
+
 HashMap Dynamic Memory insert time: 12.6544s
+
 unordered_map insert time: 0.0374045s
 
 
