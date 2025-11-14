@@ -51,4 +51,9 @@ More benchmark tests will be added soon.
 **Number of operations: 10000000**  
 - HashMap Container `insert` time per operation: `1.09762e-06s`  
 - HashMap Dynamic Memory `insert` time per operation: `1.21919e-06s`  
-- `unordered_map insert` time per operation: `1.194
+- `unordered_map insert` time per operation: `1.1945e-06s`  
+
+**Number of operations: 100000000**  
+- HashMap Container `insert` time per operation: `1.52684e-06s`  
+- HashMap Dynamic Memory `insert` time per operation: `4.97251e-06s`  
+- `unordered_map insert` time per operation: `4.58336e-06s`  
