@@ -5,6 +5,7 @@ This is a basic implementation of HashMap / unordered_map in C++ using std::vect
 The benchmark folder contains benchmark results for the insert operation. More benchmark tests will be added soon.
 
 📊 Results of Insert Benchmark
+
 HashMap built using std::vector
 Number of operations: 100
 
@@ -37,6 +38,8 @@ HashMap Container [] operator time per operation: 2.25889e-06s
 HashMap Dynamic Memory [] operator time per operation: 4.97214e-06s
 
 unordered_map [] operator time per operation: 4.00163e-06s
+
+
 
 HashMap built using Dynamic Memory
 Number of operations: 100
